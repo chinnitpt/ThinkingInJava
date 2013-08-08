@@ -1,6 +1,6 @@
 /**
  * Modify the previous exercise so that the values of the data in DataOnly are assigned to and printed in main( ) 
- * Exercise 5
+ * 
  */
 package EveryThingIsAnObject;
 
@@ -18,10 +18,10 @@ public class Exercise5 {
 		data.i = 47;
 		data.d = 1.1;
 		data.b = false;
-		
-		System.out.println("int value is: "+data.i);
-		System.out.println("double value is: "+data.d);
-		System.out.println("boolean value is: "+data.b);
+
+		System.out.println("int value is: " + data.i);
+		System.out.println("double value is: " + data.d);
+		System.out.println("boolean value is: " + data.b);
 
 	}
 }
