@@ -1,5 +1,6 @@
 /**
- * Program that includes and calls the storage( ) method defined as a code fragment in this chapter.
+ * Program that includes and calls the storage( ) method defined as a code fragment in 
+ * this chapter.
  * 
  */
 package EveryThingIsAnObject;
