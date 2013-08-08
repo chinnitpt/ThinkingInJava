@@ -1,5 +1,5 @@
 /**
- * Turn the DataOnly code fragments into a program that compiles and runs. (Exercise 4)
+ * Turn the DataOnly code fragments into a program that compiles and runs.
  */
 package EveryThingIsAnObject;
 
