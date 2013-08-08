@@ -8,7 +8,7 @@ package EveryThingIsAnObject;
  * @author Sukumar Vaddi
  * 
  */
-public class Exercise1 {
+class Exercise1 {
 
 	int x;
 	char y;

@@ -7,7 +7,7 @@ package EveryThingIsAnObject;
  * @author Sukumar Vaddi
  * 
  */
-public class Exercise4 {
+class Exercise4 {
 	int i;
 	double d;
 	boolean b;

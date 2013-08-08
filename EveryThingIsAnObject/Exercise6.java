@@ -9,13 +9,12 @@ package EveryThingIsAnObject;
  * @author Sukumar Vaddi
  * 
  */
-public class Exercise6 {
+class Exercise6 {
 	int storage(String s) {
 		return s.length() * 2;
 	}
-	
-	public static void main(String[] args)
-	{
+
+	public static void main(String[] args) {
 		String s = new String("A Random String");
 		Exercise6 ex6 = new Exercise6();
 		ex6.storage(s);
