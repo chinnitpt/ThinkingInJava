@@ -3,7 +3,7 @@
  * this chapter.
  * 
  */
-package everyThingIsAnObject;
+package tij4EveryThingIsAnObject;
 
 /**
  * @author Sukumar Vaddi

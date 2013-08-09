@@ -2,7 +2,7 @@
  * Modify the previous exercise so that the values of the data in DataOnly are assigned to and printed in main( ) 
  * 
  */
-package everyThingIsAnObject;
+package tij4EveryThingIsAnObject;
 
 /**
  * @author Sukumar Vaddi

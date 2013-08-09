@@ -1,7 +1,7 @@
 /**
  * Turn the Incrementable code fragments into a working program.
  */
-package everyThingIsAnObject.exercise7;
+package tij4EveryThingIsAnObject.exercise7;
 
 /**
  * User: sukumar

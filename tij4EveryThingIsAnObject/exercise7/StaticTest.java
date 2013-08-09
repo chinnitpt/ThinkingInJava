@@ -1,4 +1,4 @@
-package everyThingIsAnObject.exercise7;
+package tij4EveryThingIsAnObject.exercise7;
 
 /**
  * Created with IntelliJ IDEA.

@@ -3,7 +3,7 @@
  * compiles and runs.
  */
 
-package everyThingIsAnObject;
+package tij4EveryThingIsAnObject;
 
 /**
  * @author Sukumar Vaddi
