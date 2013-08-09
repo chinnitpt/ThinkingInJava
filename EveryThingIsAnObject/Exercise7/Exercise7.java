@@ -1,7 +1,7 @@
 /**
  * Turn the Incrementable code fragments into a working program.
  */
-package EveryThingIsAnObject.Exercise7;
+package everyThingIsAnObject.exercise7;
 
 /**
  * User: sukumar

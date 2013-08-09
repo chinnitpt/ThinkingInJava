@@ -1,7 +1,7 @@
 /**
  * HelloDate.java
  */
-package EveryThingIsAnObject;
+package everyThingIsAnObject;
 
 /**
  * @author Sukumar Vaddi

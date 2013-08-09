@@ -1,7 +1,7 @@
 /**
  * Turn the DataOnly code fragments into a program that compiles and runs.
  */
-package EveryThingIsAnObject;
+package everyThingIsAnObject;
 
 /**
  * @author Sukumar Vaddi
