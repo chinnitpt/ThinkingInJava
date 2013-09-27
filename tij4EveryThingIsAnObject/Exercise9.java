@@ -12,11 +12,11 @@ package tij4EveryThingIsAnObject;
 public class Exercise9 {
     public static void main(String[] args)
     {
-        byte bytePrimitive = 8;              //8 bits
+        byte bytePrimitive = 8;              //8 bits  -2^7 to 2^7-1
         Byte byteObject = bytePrimitive;
         System.out.println(byteObject);
 
-        char charPrimitive = 'A';    //16 bits
+        char charPrimitive = 'A';    //16 bits       Unicode 0 - Unicode 2^16-1
         Character charObject = charPrimitive;
         System.out.println(charObject);
 
@@ -26,17 +26,23 @@ public class Exercise9 {
         System.out.println(boolObject);
 
         int intPrimitive = 10;      //32 bits     -2^31 to 2^31-1
-        short shortPrimitive ;       //16 bits
-        double doublePrimitive;     //64 bits
+        Integer intObject = intPrimitive;
+        System.out.println(intObject);
 
-        float floatPrimitive;      //32 bits
+        short shortPrimitive = 35;       //16 bits    -2^15 to 2^15-1
+        Short shortObject  = shortPrimitive;
+        System.out.println(shortObject);
 
-        long longPrimitive;        //64 bits
+        double doublePrimitive = 12.3456;     //64 bits     -2^63 to 2^63-1
+        Double doubleObject = doublePrimitive;
+        System.out.println(doublePrimitive);
 
+        float floatPrimitive = 34.5f;      //32 bits        IEEE754 to IEEE754
+        Float floatObject = floatPrimitive;
+        System.out.println(floatObject);
 
-
-
-
-
+        long longPrimitive = 28374l;        //64 bits       IEEE754 to IEEE754
+        Long longObject =    longPrimitive;
+        System.out.println(longObject);
     }
 }
