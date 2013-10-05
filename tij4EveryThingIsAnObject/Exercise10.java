@@ -19,9 +19,10 @@ public class Exercise10 {
         String arg2 = args[1];
         String arg3 = args[2];
 
-        System.out.println("Argument 1:" + args1);
-        System.out.println("Argument 2:" + args2);
-        System.out.println("Argument 3:" + args3);
+        System.out.println("Argument 1:" + arg1);
+        System.out.println("Argument 2:" + arg2);
+        System.out.println("Argument 3:" + arg3);
+
 
     }
 }
