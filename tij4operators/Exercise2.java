@@ -1,26 +1,35 @@
 package tij4operators;
 import static net.mindview.util.Print.*;
+
+
+class FloatAliasingDemo{
+	float f;
+}
+
 public class Exercise2 {
 	public static void main(String[] args)
 	{
-		float f1 = 23.4f;
-		float f2 = 24.4f;
-		print("f1:"+f1);
-		print("f2:"+f2);
+		FloatAliasingDemo f1 = new FloatAliasingDemo();
+		f1.f = 24.4f;
 		
-		f1=f2;
-		print("f1:"+f1);
-		print("f2:"+f2);
+		FloatAliasingDemo f2 = new FloatAliasingDemo();
+		f2.f = 25.7f;
 		
-		f1= 3.5f;
+		print("f1.f:"+f1.f);
+		print("f2.f:"+f2.f);
 		
-		print("f1:"+f1);
-		print("f2:"+f2);
+		f1= f2;
 		
-		f2 = 2.5f;
-		print("f1:"+f1);
-		print("f2:"+f2);
+		print("f1.f:"+f1.f);
+		print("f2.f:"+f2.f);
 		
+		f2.f = 26.5f;
+		
+		print("f1.f:"+f1.f);
+		print("f2.f:"+f2.f);
+		
+		
+				
 		
 		
 	}
